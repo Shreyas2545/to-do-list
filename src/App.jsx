@@ -55,7 +55,7 @@ export default function App() {
         {/* Task List */}
         <ul className="space-y-3">
           {tasks.length === 0 && (
-            <p className="text-gray-500 text-center text-2xl">No tasks yet. 🙌</p>
+            <p className="text-gray-500 text-center text-2xl">No tasks yet.. 🙌</p>
           )}
 
           {tasks.map((task, index) => (
